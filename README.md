@@ -21,18 +21,15 @@
 ## 📁 Структура проекта
 
 effective-mobile-ui-tests/
-│
-├── pages/                    
-│   ├── base_page.py         # Базовый класс страницы
-│   └── main_page.py         # Класс главной страницы
-│
-├── tests/                   
-│   └── test_main_page_navigation.py # Наборы тестов
-│
-├── conftest.py              # Конфигурация pytest
-├── Dockerfile               # Конфигурация Docker
-├── requirements.txt         # Зависимости Python
-└── README.md                # Документация проекта
+├── pages/
+│   ├── base_page.py
+│   └── main_page.py
+├── tests/
+│   └── test_main_page_navigation.py
+├── conftest.py
+├── Dockerfile
+├── requirements.txt
+└── README.md
 
 ## ⚡ Быстрый старт
 
@@ -67,7 +64,7 @@ effective-mobile-ui-tests/
 **Соберите и запустите через Docker**
     ```bash
     docker build -t effective-mobile-tests .
-    docker run effective-mobile-tests   
+    docker run effective-mobile-tests
 
 ### Запуск тестов
 
