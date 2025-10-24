@@ -1,5 +1,9 @@
 # UI Автотесты для effective-mobile.ru
 
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://python.org)
+[![Playwright](https://img.shields.io/badge/Playwright-Тестирование-green.svg)](https://playwright.dev)
+[![Docker](https://img.shields.io/badge/Docker-Готов-blue.svg)](https://docker.com)
+
 Автоматизированные UI тесты для сайта effective-mobile.ru.
 
 ## 📋 Обзор проекта
@@ -17,15 +21,18 @@
 ## 📁 Структура проекта
 
 effective-mobile-ui-tests/
-    pages/ # Классы Page Object
-        base_page.py # Базовый класс страницы
-        main_page.py # Класс главной страницы
-    tests/ # Наборы тестов
-        test_main_page_navigation.py
-    conftest.py # Конфигурация pytest
-    Dockerfile # Конфигурация Docker
-    requirements.txt # Зависимости Python
-    README.md # Документация проекта
+│
+├── pages/                    
+│   ├── base_page.py         # Базовый класс страницы
+│   └── main_page.py         # Класс главной страницы
+│
+├── tests/                   
+│   └── test_main_page_navigation.py # Наборы тестов
+│
+├── conftest.py              # Конфигурация pytest
+├── Dockerfile               # Конфигурация Docker
+├── requirements.txt         # Зависимости Python
+└── README.md                # Документация проекта
 
 ## ⚡ Быстрый старт
 
