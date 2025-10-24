@@ -20,6 +20,7 @@
 
 ## 📁 Структура проекта
 
+```plaintext
 effective-mobile-ui-tests/
 ├── pages/
 │   ├── base_page.py
@@ -30,6 +31,7 @@ effective-mobile-ui-tests/
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
+```
 
 ## ⚡ Быстрый старт
 
@@ -61,7 +63,7 @@ effective-mobile-ui-tests/
 
 ### Установка через Docker
 
-**Соберите и запустите через Docker**
+1. **Соберите и запустите через Docker**
     ```bash
     docker build -t effective-mobile-tests .
     docker run effective-mobile-tests
